@@ -52,13 +52,13 @@
 
                         <div class="row hero-content">
                             <div class="col-md-12">
-                                <h1 class="main-logo text-center">yoUR Fest 2017</h1>
-                                <h2 style="font-size: 40px" class="animated fadeInDown text-center">2-Day National-Level Techno-Cultural Symposium - 2017.</h2>
+                                <h1 class="main-logo text-center">yoUR fest 2017</h1>
+                                <h2 style="text-align:center; display: inline;font-size: 40px; height: 50px" class=" typedelement animated fadeInDown text-center">2-Day National-Level Techno-Cultural Symposium - 2017.</h2>
                                 <br>
                                 <div class=" text-center">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <a href="technical.html" class="use-btn animated fadeInUp">
+                                            <a href="technical.html" class="use-btn btn-block  animated fadeInUp">
                                                 <p  >   
                                                     24-1-2017<br><br>
                                                     Technical Events
@@ -70,7 +70,7 @@
 
                                         </div>
                                         <div class="col-md-4">
-                                            <a href="cultural.html" class="use-btn animated fadeInUp">
+                                            <a href="cultural.html" class="use-btn btn-block animated fadeInUp">
                                                 <p  >
                                                     25-1-2017<br><br>
                                                     Cultural Events
@@ -84,13 +84,13 @@
                                     <div class="col-md-6">
                                         <table   class="table bg-primary table-responsive  table-bordered">
                                             <thead>
-                                               <tr>
-                                                 <th colspan="3" class="text-center "><h3>STAFF COORDINATORS </h3></th>
-                                                   </tr>
-                                                
+                                                <tr>
+                                                    <th colspan="3" class="text-center "><h3>STAFF COORDINATORS </h3></th>
+                                                </tr>
+
                                             </thead>
                                             <tbody>
-                                                 <tr>
+                                                <tr>
                                                     <td>Mr. K.Babu Rao</td>
                                                     <td>ECE </td>
                                                     <td>9100363064</td>
@@ -100,7 +100,7 @@
                                                     <td>CSE</td>
                                                     <td>9492638410</td>
                                                 </tr>
-                                             <tr>
+                                                <tr>
                                                     <td>Mr. A Venkatesh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                                     <td>IT</td>
                                                     <td>9652443815</td>
@@ -129,7 +129,7 @@
                                         </table>
 
                                     </div>
-                                  
+
                                     <div class="col-md-6 ">
                                         <table  class="table bg-primary table-responsive pull-right  table-bordered">
                                             <thead>
@@ -138,7 +138,7 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                
+
                                                 <tr>
                                                     <td>Mr. Anantha Sai Ram</td>
                                                     <td>ECE</td>
@@ -149,7 +149,7 @@
                                                     <td>IT</td>
                                                     <td>8985773646</td>
                                                 </tr>
-                                               <tr>
+                                                <tr>
                                                     <td>Mr. P. Abhilash</td>
                                                     <td> CSE</td>
                                                     <td>9700573312</td>
@@ -180,7 +180,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                      <div class="col-md-12">
+                                    <div class="col-md-12">
                                         <ul>
                                             <li><strong>LIMITED ACCOMODATION WILL BE PROVIDED TO THE PARTICIPANTS</strong></li>
                                             <li><strong>COLLEGE &nbsp;IDENTITY &nbsp;IS &nbsp;MUST FOR THE PARTICIPATION IN EVENTS.</strong></li>
@@ -197,7 +197,7 @@
 
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="js/min/toucheffects-min.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.1.1.min.js"  ></script>   
             <script src="js/flickity.pkgd.min.js"></script>
             <script src="js/jquery.fancybox.pack.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -205,7 +205,17 @@
             <script src="js/waypoints.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script src="js/min/scripts-min.js"></script>
-            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <script src="js/typed.js"></script>
+            <script>
+                $(function () {
+                    $(".typedelement").typed({
+                        strings: ["2-Day National-Level Techno-Cultural Symposium - 2017",
+                            "On 24th and 25th January 2017"],
+                        typeSpeed: 1,
+                        backDelay: 1000,
+                        loop: true});
+                });
+            </script>
 
         </body>
     </html>
