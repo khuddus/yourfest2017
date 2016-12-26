@@ -1,0 +1,433 @@
+
+
+/* ==========================================================================
+   Global custom styles starts here
+   ========================================================================== */
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/sourcesanspro-bold-webfont.eot');
+    src: url('../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('../fonts/sourcesanspro-light-webfont.eot');
+    src: url('../fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('../fonts/fjallaone-regular-webfont.eot');
+    src: url('../fonts/fjallaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fjallaone-regular-webfont.woff') format('woff'),
+         url('../fonts/fjallaone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/fjallaone-regular-webfont.svg#fjalla_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{ }
+ h1, h2, h3, h4, h5, h6{
+     margin: 0; font-weight: normal;
+}
+h1{font-family: 'fjalla_oneregular';}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+p{color: #869093; font-size: 14px; line-height: 26px;  padding-bottom: 25px; margin-bottom: 0;}
+.last{padding-bottom: 0;}
+.spacing-t{padding-top: 30px;}
+.spacing-b{padding-bottom: 30px;}
+.spacing-l{padding-left: 30px;}
+.spacing-r{padding-right: 30px;}
+.last{padding-bottom: 0; margin-bottom: 0;}
+.read-more{background: #f85c5e; padding:20px; border-radius: 0px 0px 5px 5px;}
+.read-more a{color: #fff; text-transform: uppercase; font-size: 13px; line-height: 24px;}
+.read-more a:hover{color: #383838; text-decoration: none;}
+.image-spacing{padding-bottom: 25px;}
+.no-border{border-bottom: none !important;}
+ul{margin: 0 !important;}
+
+
+
+
+		/* ===================================
+		   icon styles starts here
+		   ==================================== */
+
+.icon [class^="fw-icon-"]{color: #2d6e84; font-size: 35px;} 
+.icon {
+ width: 80px;
+ margin-top: -20px;
+ 
+ background: #f9b701;
+ position: relative;
+ display: inline-block;
+}
+.icon:before {
+ content: "";
+ position: absolute;
+ top: -25px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-bottom: 25px solid #f9b701;
+}
+.icon:after {
+ content: "";
+ position: absolute;
+ bottom: -25px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-top: 25px solid #f9b701;
+}
+
+
+
+		/* ===================================
+		   icon1 styles starts here
+		   ==================================== */
+
+.h-divider{background: url(../img/border-bottom.png) repeat-x 50%; margin-bottom: 60px; margin-top: 20px;}
+.icon1 [class^="fw-icon-"]{color: #bcbcbc; font-size: 25px;}
+.icon1 {
+ width: 50px;
+
+ 
+ background: #2d6e84;
+ position: relative;
+ display: inline-block;
+}
+.icon1:before {
+ content: "";
+ position: absolute;
+ top: -15px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 25px solid transparent;
+ border-right: 25px solid transparent;
+ border-bottom: 15px solid #2d6e84;
+}
+.icon1:after {
+ content: "";
+ position: absolute;
+ bottom: -15px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 25px solid transparent;
+ border-right: 25px solid transparent;
+ border-top: 15px solid #2d6e84;
+}
+
+
+		/* ===================================
+		   icon2 styles starts here
+		   ==================================== */
+
+	
+
+
+
+
+		/* ===================================
+		   shape styles starts here
+		   ==================================== */
+.shape img{}
+.shape {
+ width: 80px;
+ margin-top: -20px;
+ 
+ background: #fff;
+ position: relative;
+ display: inline-block;
+}
+.shape:before {
+ content: "";
+ position: absolute;
+ top: -25px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-bottom: 25px solid #fff;
+}
+.shape:after {
+ content: "";
+ position: absolute;
+ bottom: -25px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-top: 25px solid #fff;
+}
+
+
+
+
+		
+
+
+
+/* ==========================================================================
+   Menu custom styles starts here
+   ========================================================================== */
+	.header-wrapper{background: #2d6e84; position: relative; text-align: center;}
+	.site-name{background: #f9b701; padding: 25px; padding-bottom: 0;}
+	.site-name h1{color: #fff; text-transform: uppercase; font-family: 'fjalla_oneregular'; font-size: 44px;}
+	.logo{display: none;}
+	.menu{text-align: center;}
+	.navbar{display: inline-block; margin-bottom: 0;}
+	.menu .navbar .nav > .active > a{color: #9dc3d0; font-size: 16px; box-shadow: none; text-shadow: none; 
+							background-image: none; background: none;}
+	.menu .navbar .nav > .active > a:hover{color: #f9b701;box-shadow: none; background: none;}
+	.menu .navbar .nav > li{text-transform: uppercase; font-family: 'source_sans_probold';}
+	.menu .navbar .nav > li > a {color: #9dc3d0; font-size: 16px; text-shadow: none; padding: 20px 15px;}
+	.menu .navbar .nav > li > a:hover{color: #f9b701;}
+
+	.banner{text-align: center;  background: url(../img/banner-bg.jpg) repeat;}
+	.banner .carousel{margin-bottom: 0;}
+	.banner .carousel-inner > .item > img{display: inline-block; margin-top: 275px;}
+	.banner .carousel-caption{background: none; top:14%; }
+	.banner .carousel-caption h1{ padding: 10px 5px; display: inline-block; color: #2d6e84; background: #f9b701; font-size: 44px; 
+						 text-transform: uppercase;font-weight: normal; font-family: 'fjalla_oneregular';}
+	.banner .carousel-caption h2{padding: 5px; color: #f9b701; font-size: 34px; line-height: 30px; 
+								font-weight: normal; display: inline-block; background: #2d6e84;font-family: 'source_sans_prolight';}
+	.shadow{}
+	.banner .carousel-caption [class^="fw-icon-"]{padding-bottom: 25px; font-size: 80px; color: #fff;}
+	.banner .carousel-caption .btn{border-radius: 5px; border: 3px solid #fff; background: none; color: #fff; font-size: 18px;
+								 box-shadow: none; text-shadow: none; padding: 10px;  line-height: 16px; text-transform: uppercase; letter-spacing: 1px;}
+	.banner .carousel-caption .btn:hover{background: none; color: #383838; border: 3px solid #383838;}
+	.banner .carousel-control {border: none; right:-24px; top:60%; font-size: 28px; color: #253137; background: #465055; 
+							line-height: 48px; opacity: 0.5; width: 45px; height: 45px; }
+	
+	.banner .carousel-control:hover{background: #f9b701; color: #2d6e84;}
+
+
+
+/* ==========================================================================
+   Generic custom styles starts here
+   ========================================================================== */
+	.btn{background: #2d6e84; color: #b2b7b8; box-shadow: none; text-shadow: none; border: none; 
+						padding: 8px; text-transform: uppercase;font-family: 'fjalla_oneregular';}
+	.btn:hover{background: #f9b701; color: #2d6e84; transition:all 1s;}
+
+	.featured-blocks{padding: 60px 0; background: #2d6e84; text-align: center;}
+	.featured-blocks .block{background: #bcbcbc; border-radius: 5px; padding: 35px; padding-top: 0;}
+	.featured-blocks .block [class^="fw-icon-"]{}
+	.featured-blocks .block h1{padding-top: 40px; font-size: 24px; color: #2d6e84; font-family: 'fjalla_oneregular'; text-transform: uppercase; padding-bottom: 15px;}
+	.featured-blocks .block p{color: #44535a; font-size: 16px; line-height: 24px; font-family: 'source_sans_proregular';}
+	 
+	.featured-heading{background: #bcbcbc; padding-top: 60px; text-align: center; padding-bottom: 50px; border-bottom: 5px solid #2d6e84;}
+	.featured-heading h1{font-size: 44px; color: #2d6e84; text-transform: uppercase;}
+	.featured-heading h2{font-size: 34px; color: #2d6e84; font-family: 'source_sans_prolight'; text-align: center;}
+	.featured-heading .block{text-align: left;}
+	.featured-heading .block h1{padding-top: 40px; font-size: 24px; color: #2d6e84; font-family: 'fjalla_oneregular'; text-transform: uppercase; padding-bottom: 15px;}
+	.featured-heading .block p{color: #44535a; font-size: 16px; line-height: 24px; font-family: 'source_sans_proregular';}
+	.featured-heading .grid li a{display: inline-block;}
+
+	
+	
+
+
+
+
+	.featured-images{padding: 55px 0; background: #f9b701; text-align: center;}
+	.featured-images h1{font-size: 44px; color: #2d6e84; text-transform: uppercase;font-family: 'fjalla_oneregular';}
+	.featured-images h2{ text-align: center;font-size: 34px; color: #2d6e84; font-family: 'source_sans_prolight';}
+	.featured-images .hh-divider{background: url(../img/hh-divider.png) repeat-x 50%; margin-bottom: 50px; margin-top: 20px; height: 7px;}
+	
+	.featured-images .grid li .user-info ul{margin-top: 15px !important;}
+.featured-images .grid li .user-info ul li{ float: none !important; ; width: 16% ;}
+.featured-images .grid li .user-info ul li a:hover{text-decoration: none !important;}
+	.featured-images .grid li .user-info{text-align: center;}
+	.featured-images .user-info img{padding-bottom: 25px;}
+	.featured-images .user-info h1{padding-bottom: 10px; color: #2a363c; font-size: 18px; line-height: 22px;font-family: 'fjalla_oneregular'; text-transform: uppercase;}
+	.featured-images .user-info p{color: #44535a; font-size: 16px; line-height: 24px; font-family: 'source_sans_proregular'; text-align: center;}
+	.featured-images .user-info ul{margin: 0; margin-top: 15px;}
+	.featured-images .user-info ul li{list-style: none; display: inline-block; float: left;}
+	.featured-images .user-info ul li [class^="fw-icon-"]
+	{	border-radius: 23px;
+		color: #f9b701;
+		font-size: 10px;
+		display: inline-block !important;
+		cursor: pointer;
+		width: 14px !important;
+		height: 14px !important;
+		border-radius: 50%;
+		text-align: center;
+		position: relative;
+		z-index: 1;
+		border: none;
+		padding: 6px;
+		background: #2d6e84;
+		font-size: 14px;
+		margin-bottom: 7px;
+		}
+	.featured-images .user-info ul li [class^="fw-icon-"]:hover{ text-decoration: none; background: #fff; color: #2d6e84; }
+
+
+
+
+/* ==========================================================================
+   sidebar custom styles starts here
+   ========================================================================== */
+	
+	
+
+.site-name {
+ padding:26px 40px;
+ margin-bottom: -35px;
+ background: #f9b701;
+ position: relative;
+ border-radius: 0 0 4px 4px;
+}
+
+
+.site-name:after {
+ content: "";
+ position: absolute;
+ bottom: -25px; left: 0;
+ width: 0;
+ height: 0;
+
+ right: 0;
+ border-left: 109px solid transparent;
+ border-right: 120px solid transparent;
+ border-top: 26px solid #f9b701;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Footer custom styles starts here
+   ========================================================================== */
+	.footer-wrapper{padding-top: 60px; padding-bottom: 40px; background: #2d6e84;}
+	.site-footer{padding-bottom: 40px; background: url(../img/hhh-divider.png) repeat-x 0 100%;}
+	.site-footer .block{}
+	.site-footer .block h1{text-transform: uppercase; color: #f9b701; font-size: 24px; line-height: 30px; font-family: 'fjalla_oneregular'; padding-bottom: 15px;}
+	.site-footer .block ul{margin:0; margin-top: 15px;}
+	.site-footer .block ul li{list-style: none; padding-bottom: 15px; font-family: 'source_sans_proregular';}
+	.site-footer .block ul li a{font-size: 16px;  color: #9dc3d0;}
+	.site-footer .block ul li a:hover{text-decoration: none; color: #fff;}
+	.site-footer .block ul li span{color: #9dc3d0; font-family: 'source_sans_proregular'; font-size: 16px;}
+	.site-footer .block ul li .info{display: inline-block; font-family: 'source_sans_probold'; margin-bottom: 10px;}
+	.site-footer .block ul li .info a{font-size: 18px;}
+
+	.icon2[class^="fw-icon-"]{margin-top: 5px;}
+	.icon2{ border-radius: 23px;
+		color: #2d6e84;
+		font-size: 10px;
+		display: inline-block !important;
+		cursor: pointer;
+		width: 15px !important;
+		height: 14px !important;
+		border-radius: 50%;
+		text-align: center;
+		position: relative;
+		z-index: 1;
+		border: none;
+		padding: 12px;
+
+		background: #f9b701;
+		font-size: 15px;
+		margin-bottom: 7px;
+		float: left;
+		margin-right: 15px;
+		}
+	
+	
+
+	.copy-rights{padding-top: 35px; text-align: center; color: #87b2c1; font-size: 16px; line-height: 24px; font-family: 'source_sans_proregular';}
+	.copy-rights strong a{color: #f9b701; font-size: 16px;  font-family: 'source_sans_probold';}
+	.copy-rights strong a:hover{color: #fff; text-decoration: none;}
+	.copy-rights a{color: #87b2c1;}
+	.copy-rights a:hover{color: #fff; text-decoration: none;}
+
+
+/* ===================================
+   Modal styles starts here
+   ==================================== */
+
+
+.featured-blocks .modal.fade.in {top:30%;}
+.featured-blocks .modal:hover{background: #2d6e84; transition: all 1s;}
+.featured-blocks .modal h2{padding:25px 0; border-top: 1px solid #fff; border-bottom: 1px solid #fff;}
+.featured-blocks .modal h2{color: #fff; text-align: left;}
+.featured-blocks .modal p{color: #fff; text-align: left; padding-top: 10px;}
+.featured-blocks .modal{background: #f9b701; width: 500px; padding: 30px;}
+
+
+.featured-blocks .modal:hover:before{border-bottom: 120px solid #2d6e84; transition: all 1s;}
+.featured-blocks .modal:hover:after{border-top: 120px solid #2d6e84; transition: all 1s;}
+
+
+.featured-blocks .modal:before{content: "";
+ position: absolute;
+ top: -120px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 280px solid transparent;
+ border-right: 280px solid transparent;
+ border-bottom: 120px solid #f9b701;}
+ .featured-blocks .modal:after{content: "";
+ position: absolute;
+ bottom: -120px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 280px solid transparent;
+ border-right: 280px solid transparent;
+ border-top: 120px solid #f9b701;}
+
+
+/* ===================================
+   Responsive Tweaks starts here
+   ==================================== */
+	
+   .navbar .btn-navbar{background: #f9b701; color: #2d6e84; text-shadow: none; margin-left: 0; margin-right: 0;
+   					  float: none; margin-bottom: 5px;}
+   .navbar .btn-navbar:hover{color: #2d6e84;}
